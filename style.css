@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(24, 100, 56);
+    background-color: rgb(29, 26, 26);
 }
 header {
     color: blueviolet;
@@ -10,15 +10,17 @@ h2 {
     text-align: center;
     font-size: 70px;
     padding-top: 5em;
+    color: indigo;
 }
 
 main {
     text-align: center;
     font-size: 25px;
+
 }
 
 #high-score-button {
-    background-color: orange;
+    background-color: gold;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -31,7 +33,7 @@ main {
 }
 
 #start-button {
-    background-color: lightblue;
+    background-color: indigo;
   border: none;
   color: white;
   padding: 25px 40px;
@@ -42,3 +44,25 @@ main {
   margin: 4px 2px;
   cursor: pointer;
 }
+
+/* Creates the Hover stlying for the main page buttons */
+
+#start-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 black;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+#high-score-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 gold;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+
+
+
+
+
