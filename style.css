@@ -97,6 +97,63 @@ p {
 
 
 
+/* End Page Styling */
+
+
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
+
+input::placeholder {
+    color: #aaa;
+
+}
+
+
+
+#username {
+    margin-bottom: 5rem;
+    width: 100%;
+    outline: none;
+}
+
+#end-text {
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    
+}
+
+#saveScorebtn {
+    border: none;
+   margin-left: 0;
+   margin-bottom: 5rem;
+}
+
+.fa-home {
+    margin-left: 2rem;
+    margin-right: 5rem;
+    font-size: 2rem;
+    color: rgb(28, 26, 26);
+}
+
+
+
+
+
 
 
 
