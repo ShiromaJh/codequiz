@@ -1,5 +1,5 @@
 :root {
-    background: rgb(29, 26, 26)
+    background: rgba(119, 184, 77, 0.719)
 }
 
 * {
@@ -11,7 +11,7 @@
 
 h1 {
     font-size: 5.4rem;
-    color: white;
+    color: purple;
     margin-bottom: 5rem;
 
 }
